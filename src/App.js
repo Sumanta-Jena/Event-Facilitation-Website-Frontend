@@ -2,14 +2,14 @@ import { BrowserRouter, Route, Link, HashRouter } from "react-router-dom";
 
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Homescreen from "./screens/Homescreen";
-import Bookingscreen from "./screens/Bookingscreen";
-import RegisterScreen from "./screens/RegisterScreen";
-import LoginScreen from "./screens/LoginScreen";
-import ProfileScreen from "./screens/ProfileScreen";
-import AdminScreen from "./screens/AdminScreen";
-import LandingScreen from "./screens/LandingScreen";
+import Navbar from "./components/Navbar.js";
+import Homescreen from "./screens/Homescreen.js";
+import Bookingscreen from "./screens/Bookingscreen.js";
+import RegisterScreen from "./screens/RegisterScreen.js";
+import LoginScreen from "./screens/LoginScreen.js";
+import ProfileScreen from "./screens/ProfileScreen.js";
+import AdminScreen from "./screens/AdminScreen.js";
+import LandingScreen from "./screens/LandingScreen.js";
 
 function App() {
   return (
